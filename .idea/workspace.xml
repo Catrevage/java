@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0258f07c-05b8-44f1-8982-ead965dd8e83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/DataStructures/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/main/java/mycompany/com/datastructures/DataStructures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/main/java/mycompany/com/datastructures/GenId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/main/java/mycompany/com/datastructures/StaticVar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/target/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/target/classes/mycompany/com/datastructures/DataStructures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/target/classes/mycompany/com/datastructures/GenId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/target/classes/mycompany/com/datastructures/StaticVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Qc7ygWLy9dxhWe7k3l4Zu0q3mc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Damião Júnior/Documents/Projetos/java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mycompany.com.poo.Poo" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0258f07c-05b8-44f1-8982-ead965dd8e83" name="Changes" comment="" />
+      <created>1685641272549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685641272549</updated>
+    </task>
+    <servers />
+  </component>
+</project>
