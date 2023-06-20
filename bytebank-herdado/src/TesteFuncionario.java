@@ -1,27 +1,25 @@
+import funcionarios.*;
 
 public class TesteFuncionario {
 
 	public static void main(String[] args) {
-		Funcionario jose = new Funcionario(
-				"Jose Arimateia", 
-				"444.444.444-44", 
-				5200.0);
 		
-		Gerente francisco = new Gerente(
-				"Francisco de Assis", 
-				"555.555.555-55", 
-				6300,
-				357208);
+		Funcionario allan = new Escriturario(
+				"Allan A. Allan", 
+				"666.666.666-77", 
+				3900,
+				"Empréstimos");
 		
-		if(francisco.autentica(357208)) {
-			System.out.println("Seja bem vindo!");
-		} else System.out.println("Senha icorreta!");
-		
-		System.out.println(francisco.getBonificacao());
-		
-		francisco.setSenha(18);
-		
-		System.out.println(francisco.getSenha());
+		Funcionario carlos = new Gerente(
+				"Carlos Apolinario", 
+				"777.777.777-77", 
+				7200);
+	
+		System.out.println("Chamando bonificação do Escriturario: "
+				+allan.getBonificacao());
+		System.out.println("Chamando bonificação do Gerente: "
+				+carlos.getBonificacao());
 	}
+	
 
 }

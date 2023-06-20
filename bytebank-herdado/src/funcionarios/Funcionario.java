@@ -1,21 +1,20 @@
+package funcionarios;
 
-public class Funcionario {
+public abstract class Funcionario {
 	private String nome;
 	private String cpf;
 	protected double salario;
-
-//Builders
+	
+//Constructor
 	public Funcionario(String nome, String cpf, double salario) {
 		this.setNome(nome);
 		this.setCpf(cpf);
 		this.setSalario(salario);
-		
 	}
 
 //Getters and Setters
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
@@ -41,5 +40,5 @@ public class Funcionario {
 		this.salario = salario;
 	}
 	
-	 
+	
 }
