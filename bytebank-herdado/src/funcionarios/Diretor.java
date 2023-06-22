@@ -9,9 +9,7 @@ public class Diretor extends Funcionario implements Autenticavel {
 		super(nome, cpf, salario);
 		this.util = new AutenticacaoUtil();
 		
-	}
-	
-	
+	}	
 
 	@Override
 	public double getBonificacao() {
