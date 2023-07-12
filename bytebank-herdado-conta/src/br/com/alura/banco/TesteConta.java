@@ -1,3 +1,7 @@
+package br.com.alura.banco;
+
+import br.com.alura.banco.model.Cliente;
+import br.com.alura.banco.model.ContaCorrente;
 
 public class TesteConta {
 
@@ -13,7 +17,7 @@ public class TesteConta {
 	    ContaCorrente cp = new ContaCorrente(77766, 56, clienteC1);
 	    cp.deposita(300);
 		
-	    cc.saca(10);
+	    cc.saca(500);
 	    
 	    System.out.println("Saldo cc: "+cc.getSaldo());
 	    System.out.println("Saldo cp: "+cp.getSaldo());

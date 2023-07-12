@@ -1,0 +1,9 @@
+package br.com.alura.banco.model;
+
+public class SaldoInsuficienteException extends RuntimeException {
+	
+	public SaldoInsuficienteException(String msg) {
+		super(msg);
+	}
+
+}
