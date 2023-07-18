@@ -1,8 +1,8 @@
 package br.com.alura.banco.util;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
+import java.util.function.Consumer;
 
 import br.com.alura.banco.model.Cliente;
 import br.com.alura.banco.model.Conta;
@@ -12,9 +12,6 @@ public class TesteDeOrdenacao {
 
 	public static void main(String[] args) {
 		ArrayList<Conta> lista = new ArrayList<Conta>();
-		NumeroDaContaComparator comparator = new NumeroDaContaComparator();
-		TitularDaContaComparator compareTitular = new TitularDaContaComparator();
-		ArrayList<String> arr = new ArrayList<String>();
 		
 		Cliente c1 = new Cliente("Johanes", "000-000-000-99", "Ator");
 		Cliente c2 = new Cliente("Rodrigo", "000-000-000-99", "Pedreiro");
@@ -36,53 +33,13 @@ public class TesteDeOrdenacao {
 		lista.add(cc1);
 		lista.add(cc2);
 		lista.add(cc4);
+			
 		
-		arr.add("Maria");
-		arr.add("Barbara");
-		arr.add("Adelaide");
-		arr.add("Luana");
-		arr.add("Janaina");		
+		Comparator<Conta> numComp = (o1, o2) -> Integer.compare(o1.getNumero(), o2.getNumero());
+		Comparator<Conta> titComp = (o1, o2) -> o1.compareTo(o2);
 		
-		Collections.sort(lista);
-		Collections.reverse(lista);
-		Collections.sort(arr);
-		
-		for(Conta item : lista) {
-			System.out.println(item);
-		}
-		
-		System.out.println("-----------------");
-		
-		for(String item : arr) {
-			System.out.println(item);
-		}
-		
-		
+		lista.sort(numComp);
+		lista.forEach((item)-> System.out.println(item));
 
 	}
-
-}
-
-class NumeroDaContaComparator implements Comparator<Conta> {
-
-	@Override
-	public int compare(Conta o1, Conta o2) {
-		
-		return Integer.compare(o1.getNumero(), o2.getNumero());
-		
-	}
-	
-	
-}
-
-class TitularDaContaComparator implements Comparator<Conta>{
-
-	@Override
-	public int compare(Conta o1, Conta o2) {
-		String nomeC1 = o1.getCliente().getNome();
-		String nomeC2 = o2.getCliente().getNome();
-		
-		return nomeC1.compareTo(nomeC2);
-	}
-	
 }
