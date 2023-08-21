@@ -1,13 +1,12 @@
 package br.com.jdbc.modelo;
 
-import com.mchange.v2.codegen.bean.PropsToStringGeneratorExtension;
-
 public class Produto {
 	private int id;
 	private String nome;
 	private String descricao;
 	
-	public Produto(String string, String string2) {
+	public Produto(int id, String string, String string2) {
+		this.id = id;
 		this.nome = string;
 		this.descricao = string2;
 	}

@@ -16,13 +16,13 @@ public class TestaListagem {
 
 			ResultSet result = stm.getResultSet();
 
-			System.out.print("ID" + "\t" + "NOME" + "\t\t\t\t\t" + "DESCRIÇÃO" + "\n");
+			System.out.printf("%-5s"+"%-40s"+"%s"+"\n","ID","NOME","DESCRICAO");
 
 			while (result.next()) {
 				Integer id = result.getInt("ID");
-				System.out.printf("%d\t",id);
+				System.out.printf("%-5d",id);
 				String nome = result.getString("NOME");
-				System.out.printf("%s\t", nome);
+				System.out.printf("%-40s", nome);
 				String descricao = result.getString("DESCRICAO");
 				System.out.printf("%s\n", descricao);
 			}
